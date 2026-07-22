@@ -1,12 +1,12 @@
 name: Release on version change
 
-# Runs whenever pom.xml changes on main. It reads the project version and, only if
+# Runs whenever pom.xml changes on master. It reads the project version and, only if
 # no release exists yet for that version, builds the jar and publishes a release
 # tagged with the version. Bumping <version> in pom.xml is all it takes to ship.
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
     paths:
       - 'pom.xml'
   workflow_dispatch: {}
