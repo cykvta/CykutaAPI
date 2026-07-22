@@ -35,13 +35,13 @@ Add the JitPack repository and the dependency to your plugin's `pom.xml`:
     <dependency>
         <groupId>com.github.cykvta</groupId>
         <artifactId>CykutaAPI</artifactId>
-        <version>1.0</version>
+        <version>{version}</version>
     </dependency>
 </dependencies>
 ```
 
-The `<version>` is a **git tag / GitHub release** of this repo (e.g. `1.0`). You can
-also use:
+Replace `{version}` with a **git tag / GitHub release** of this repo (e.g. `1.0`).
+You can also use:
 
 - `master-SNAPSHOT` — always the latest commit on `master`.
 - a commit hash (e.g. `a7c3122`) — a specific commit.
@@ -64,7 +64,7 @@ Then depend on it using its own coordinates:
 <dependency>
     <groupId>icu.cykuta</groupId>
     <artifactId>CykutaAPI</artifactId>
-    <version>1.0</version>
+    <version>{version}</version>
 </dependency>
 ```
 
