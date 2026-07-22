@@ -1,0 +1,61 @@
+# Compiled output / build
+target/
+build/
+out/
+bin/
+*.class
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+release.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+buildNumber.properties
+
+# Packaged files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDEs
+## IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+## Eclipse
+.classpath
+.project
+.settings/
+.apt_generated/
+## NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+## VS Code
+.vscode/
+
+# Claude
+.claude/
+CLAUDE.local.md
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.local
+*.env
